@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="ar-eg" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=0"
+    />
+    <title>Corona App</title>
+
+    <!-- Google font file. If you want you can change. -->
+    <link href="../css?family=Nunito:400,600,700,900" rel="stylesheet" />
+
+    <!-- Fontawesome font file css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+    <!-- Template global css file. Requared all pages -->
+    <link rel="stylesheet" type="text/css" href="css/global.style.css" />
+    <style>
+      /* .creamy-bg {
+        background: antiquewhite;
+      } */
+      .bg-linear {
+        background-image: -webkit-linear-gradient(45deg, var(--main-color), transparent);
+				background-image: -moz-linear-gradient(45deg, var(--main-color), transparent);
+        background-image: linear-gradient(45deg, var(--main-color), transparent);
+      }
+
+      /* .get-started-btn {
+        display: block;
+        padding: 15px 20px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #102c41;
+        color: #fff !important;
+      } */
+
+      .enterance a {
+        color: #f0d252;
+      }
+
+      .enterance input,
+      .enterance textarea,
+      .enterance label {
+        color: #102c41;
+      }
+
+      .enterance .form-element {
+        background: whitesmoke;
+        border-color: white;
+      }
+
+      .enterance .form-row-group.with-icons .form-row i {
+        font-size: 20px;
+        color: var(--main-color) !important;
+				margin-right: 6px;
+      }
+
+      .w-text {
+        color: var(--main-color) !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="wrapper-inline bg-linear">
+        <!-- Page content start -->
+        <main>
+          <div class="container enterance">
+            <div class="text-center">
+              <img src="img/logo.png" class="logo-img" alt="" />
+            </div>
+
+            <div class="form-divider"></div>
+
+            <div class="form-row-group with-icons">
+              <div class="form-row no-padding">
+                <i class="fa fa-user"></i>
+                <input
+                  type="email"
+                  name="aaa"
+                  class="form-element"
+                  placeholder="اسم المستخدم او الايميل"
+                />
+              </div>
+              <div class="form-row no-padding" style="margin-bottom: 10px;">
+                <i class="fa fa-lock"></i>
+                <input
+                  type="password"
+                  name="aaa"
+                  class="form-element"
+                  placeholder="كلمة المرور"
+                />
+              </div>
+							<div class="form-row">
+								<a href="forgot-password.html" data-loader="show"
+									>نسيت كلمة المرور؟</a
+								>
+							</div>
+            </div>
+
+            <div class="form-row">
+              <a href="main.html" class="get-started-btn smooth" style="margin: 0 10px;"
+                >تسجيل الدخول</a
+              >
+            </div>
+
+            <div class="form-row txt-center w-text">
+              لا امتلك حساب؟
+              <a href="signup.html" data-loader="show">انشاء حساب</a>
+            </div>
+
+            <div class="form-divider"></div>
+          </div>
+        </main>
+        <!-- Page content end -->
+      </div>
+    </div>
+
+    <!--Page loader DOM Elements. Requared all pages-->
+    <div class="sweet-loader">
+      <div class="box">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+      </div>
+    </div>
+
+    <!-- JQuery library file. requared all pages -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Template global script file. requared all pages -->
+    <script src="js/global.script.js"></script>
+  </body>
+</html>
