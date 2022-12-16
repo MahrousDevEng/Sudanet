@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar-eg" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=2, user-scalable=yes"
+    /> -->
+    <title>سودانت</title>
+    <!-- Fontawesome font file css -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css" />
+    <!-- Template global css file. Requared all pages -->
+    <link rel="stylesheet" href="css/global.style.css" />
+    <link rel="stylesheet" href="css/pages/forgot.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="content">
+        <div class="container">
+          <a href="login.html" class="back">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+          </a>
+          <img
+            src="img/logo.png"
+            alt="sudanet logo"
+            width="200"
+            height="140"
+            class="logo"
+          />
+          <form class="form" id="loginForm">
+            <div class="custom-form-control-helper mb-4">
+              <div class="custom-form-control error">
+                <input
+                  type="email"
+                  name="name_email"
+                  id="name_email"
+                  placeholder="البريد الالكتروني"
+                  class="form-input"
+                  required
+                />
+              </div>
+              <div class="helper-text">هذا الحقل مطلوب</div>
+            </div>
+            <a
+              role="button"
+              type="submit"
+              href="home.html"
+              class="btn btn-alt submit"
+              >ارسل الكود</a
+            >
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!--Page loader DOM Elements. Requared all pages-->
+    <div class="sweet-loader">
+      <div class="box">
+        <img
+          src="img/logo.webp"
+          width="200"
+          height="140"
+          alt="sudanet logo"
+          class="logo smooth"
+        />
+      </div>
+    </div>
+
+    <!-- JQuery library file. requared all pages -->
+    <script src="plugins/jquery-3.2.1.min.js"></script>
+
+    <!-- Template global script file. requared all pages -->
+    <script src="js/global.script.js"></script>
+  </body>
+</html>

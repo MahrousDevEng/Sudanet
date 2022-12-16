@@ -1,0 +1,19 @@
+.content {
+  position: relative;
+  background-color: #5e1ddb;
+  background-image: url(../../img/splash-screen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.start {
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+}

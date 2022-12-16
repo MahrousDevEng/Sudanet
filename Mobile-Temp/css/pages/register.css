@@ -1,0 +1,113 @@
+.content {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skip {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--alt-color);
+}
+.logo {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+.form {
+  width: 100%;
+}
+.custom-form-control-helper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.custom-form-control {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.custom-form-control .form-input {
+  display: block;
+  border: 1px solid var(--alt-color);
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.custom-form-control .form-input:focus {
+  box-shadow: var(--shadow-md);
+}
+.custom-form-control.error .form-input {
+  border: 1px solid var(--error);
+}
+.custom-form-control-helper .helper-text {
+  margin: 4px 4px 0;
+  color: var(--error);
+}
+.custom-form-control:not(.error) + .helper-text {
+  display: none;
+}
+.custom-form-control.password .form-input {
+  padding: 0.75rem 1rem 0.75rem calc(40px + 1rem);
+}
+.custom-form-control.password .eye-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 45px;
+  height: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  color: var(--placeholder);
+  background-color: transparent;
+}
+.custom-form-control.password .eye-icon.show i:first-child {
+  display: none;
+}
+.custom-form-control.password .eye-icon:not(.show) i:last-child {
+  display: none;
+}
+.forgot-password {
+  display: block;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.submit {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.new-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.25rem 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.new-user a {
+  font-weight: 700;
+  color: var(--dark);
+  text-decoration: underline;
+}
+
