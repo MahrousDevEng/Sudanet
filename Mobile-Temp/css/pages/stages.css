@@ -1,0 +1,9 @@
+.btn-stage:focus {
+  box-shadow: var(--shadow-sm);
+}
+.btn-stage:not(.collapsed) {
+  color: var(--main-color);
+  background-color: var(--alt-color);
+  font-weight: 700;
+  box-shadow: var(--shadow-lg);
+}

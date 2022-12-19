@@ -1,6 +1,5 @@
 .content {
-  background-color: var(--light-grey);
-  padding-bottom: 2rem;
+  padding-bottom: 60px;
 }
 .back {
   background-color: var(--light);
