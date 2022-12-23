@@ -40,6 +40,12 @@ if ($("#player").length !== 0) {
 
 $(document).ready(function () {
   "use strict";
+
+  // Trigger Lazy Load Images
+  if ($(".lazy").length !== 0) {
+    const lazyLoadInstance = new LazyLoad();
+  }
+
   // Hide Preloader on Document Load
   $(".sweet-loader").length !== 0 && $(".sweet-loader").addClass("hide").hide();
 

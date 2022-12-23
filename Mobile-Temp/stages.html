@@ -33,106 +33,151 @@
       <div class="content">
         <div class="container py-3">
           <h2 class="mb-4 text-main">عرض جميع المراحل التعليمية</h2>
-          <div class="stages-parent" id="allStages">
-            <ul class="stages-wrapper row g-3 mb-5">
-              <li class="col">
-                <button
-                  type="button"
-                  class="btn btn-stage active"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#stageOne"
-                  aria-expanded="true"
-                  aria-controls="stageOne"
-                >
-                  المرحلة الابتدائية
-                </button>
-              </li>
-              <li class="col">
-                <button
-                  type="button"
-                  class="btn btn-stage collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#stageTwo"
-                  aria-expanded="true"
-                  aria-controls="stageTwo"
-                >
-                  المرحلة الاعدادية
-                </button>
-              </li>
-              <li class="col">
-                <button
-                  type="button"
-                  class="btn btn-stage collapsed"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#stageThree"
-                  aria-expanded="true"
-                  aria-controls="stageThree"
-                >
-                  المرحلة الثانوية
-                </button>
-              </li>
-            </ul>
-            <!-- Stage One -->
-            <ol
-              class="list-group list-group-numbered collapse show"
-              id="stageOne"
-              aria-labelledby="stageOne"
-              data-bs-parent="#allStages"
-            >
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الاول الابتدائي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الثانى الابتدائي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الثالث الابتدائي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الرابع الابتدائي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الخامس الابتدائي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف السادس الابتدائي</a>
-              </li>
-            </ol>
-            <!-- Stage Two -->
-            <ol
-              class="list-group list-group-numbered collapse"
-              id="stageTwo"
-              aria-labelledby="stageTwo"
-              data-bs-parent="#allStages"
-            >
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الاول الاعدادي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الثانى الاعدادي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الثالث الاعدادي</a>
-              </li>
-            </ol>
-            <!-- Stage Three -->
-            <ol
-              class="list-group list-group-numbered collapse"
-              id="stageThree"
-              aria-labelledby="stageThree"
-              data-bs-parent="#allStages"
-            >
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الاول الثانوي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الثانى الثانوي</a>
-              </li>
-              <li class="list-group-item">
-                <a href="stage-courses.html">مواد الصف الثالث الثانوي</a>
-              </li>
-            </ol>
-          </div>
+          <ul class="row g-4">
+            <li class="col-12 col-sm-6">
+              <div class="term-item">
+                <a href="stage-courses.html" class="image">
+                  <img
+                    data-src="img/terms/term-1.webp"
+                    src="img/terms/placeholder-400x200.png"
+                    alt="term-1"
+                    width="210"
+                    height="150"
+                    class="lazy"
+                  />
+                </a>
+                <div class="term-item-content">
+                  <a href="stage-courses.html">
+                    <h3 class="title">المرحلة الاولى</h3>
+                  </a>
+                  <p class="courses">6 مواد</p>
+                  <div class="row g-3 align-items-center">
+                    <div class="col">
+                      <p class="mb-0 text-main lead fw-bold">200 $</p>
+                    </div>
+                    <div class="col-auto">
+                      <button
+                        type="button"
+                        class="btn btn-alt"
+                        data-bs-toggle="modal"
+                        data-bs-target="#insertCodeModal"
+                      >
+                        شراء جميع المواد
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-12 col-sm-6">
+              <div class="term-item">
+                <a href="stage-courses.html" class="image">
+                  <img
+                    data-src="img/terms/term-2.webp"
+                    src="img/terms/placeholder-400x200.png"
+                    alt="term-2"
+                    width="210"
+                    height="150"
+                    class="lazy"
+                  />
+                </a>
+                <div class="term-item-content">
+                  <a href="stage-courses.html">
+                    <h3 class="title">المرحلة الثانية</h3>
+                  </a>
+                  <p class="courses">7 مواد</p>
+                  <div class="row g-3 align-items-center">
+                    <div class="col">
+                      <p class="mb-0 text-main lead fw-bold">500 $</p>
+                    </div>
+                    <div class="col-auto">
+                      <button
+                        type="button"
+                        class="btn btn-alt"
+                        data-bs-toggle="modal"
+                        data-bs-target="#insertCodeModal"
+                      >
+                        شراء جميع المواد
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-12 col-sm-6">
+              <div class="term-item">
+                <a href="stage-courses.html" class="image">
+                  <img
+                    data-src="img/terms/term-3.jpg"
+                    src="img/terms/placeholder-400x200.png"
+                    alt="term-3"
+                    width="210"
+                    height="150"
+                    class="lazy"
+                  />
+                </a>
+                <div class="term-item-content">
+                  <a href="stage-courses.html">
+                    <h3 class="title">المرحلة الثالثة</h3>
+                  </a>
+                  <p class="courses">4 مواد</p>
+                  <div class="row g-3 align-items-center">
+                    <div class="col">
+                      <p class="mb-0 text-main lead fw-bold">400 $</p>
+                    </div>
+                    <div class="col-auto">
+                      <button
+                        type="button"
+                        class="btn btn-alt"
+                        data-bs-toggle="modal"
+                        data-bs-target="#insertCodeModal"
+                      >
+                        شراء جميع المواد
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="col-12 col-sm-6">
+              <div class="term-item">
+                <a href="stage-courses.html" class="image">
+                  <img
+                    data-src="img/terms/term-4.jpg"
+                    src="img/terms/placeholder-400x200.png"
+                    alt="term-4"
+                    width="210"
+                    height="150"
+                    class="lazy"
+                  />
+                </a>
+                <div class="term-item-content">
+                  <a href="stage-courses.html">
+                    <h3 class="title">المرحلة الرابعة</h3>
+                  </a>
+                  <p class="courses">6 مواد</p>
+                  <div class="row g-3 align-items-center">
+                    <div class="col">
+                      <p class="mb-0 text-main lead fw-bold">900 $</p>
+                    </div>
+                    <div class="col-auto">
+                      <button
+                        type="button"
+                        class="btn btn-alt"
+                        data-bs-toggle="modal"
+                        data-bs-target="#insertCodeModal"
+                      >
+                        شراء جميع المواد
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
       <!-- End of Page Content -->
@@ -164,6 +209,48 @@
       </div>
     </div>
 
+    <!-- Insert Code Modal -->
+    <div
+      class="modal fade"
+      id="insertCodeModal"
+      tabindex="-1"
+      aria-labelledby="insertCodeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="insertCodeModalLabel">
+              مواد المرحلة الاولى
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <label for="singleClassCode" class="form-label"
+              >ادخل الكود لشراء جميع مواد المرحلة الاولى</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="singleClassCode"
+              placeholder="مثال: 123456"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-alt" data-bs-dismiss="modal">
+              الغاء
+            </button>
+            <button type="button" class="btn btn-main">شراء</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--Page loader DOM Elements. Requared all pages-->
     <div class="sweet-loader">
       <div class="box">
@@ -181,6 +268,8 @@
     <script src="plugins/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap -->
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <!-- LazyLoad Images -->
+    <script src="plugins/lazyload.min.js" defer></script>
     <!-- Template global script file. requared all pages -->
     <script src="js/global.script.js"></script>
   </body>
