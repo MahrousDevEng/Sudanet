@@ -243,6 +243,7 @@ body {
 .form-control {
   padding: 0.75rem 1rem;
   border-radius: var(--radius);
+  border: 1px solid var(--alt-color);
 }
 .form-control:focus {
   border: 1px solid #ccc;
@@ -295,6 +296,9 @@ button:disabled,
   color: var(--light) !important;
   background-color: var(--dark) !important;
   opacity: 0.5 !important;
+}
+textarea {
+  resize: none;
 }
 /*-------------------------------------------------------------------
 [ Accordion ]
