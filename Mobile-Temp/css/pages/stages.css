@@ -41,4 +41,7 @@
   font-size: 1rem;
   font-weight: 700;
 }
+.term-item .btn {
+  box-shadow: none;
+}
 /* End of Term Item */
