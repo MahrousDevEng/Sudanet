@@ -89,10 +89,13 @@
 .submit {
   font-size: 1.2rem;
   font-weight: 700;
+  width: 100%;
+  border-color: transparent;
 }
 /* Aniamtion */
 @-webkit-keyframes arrowLeft {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -o-transform: translateX(0);
@@ -118,7 +121,8 @@
   }
 }
 @-moz-keyframes arrowLeft {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -o-transform: translateX(0);
@@ -144,7 +148,8 @@
   }
 }
 @-o-keyframes arrowLeft {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -o-transform: translateX(0);
@@ -170,7 +175,8 @@
   }
 }
 @keyframes arrowLeft {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     -o-transform: translateX(0);

@@ -93,6 +93,8 @@
 .submit {
   font-size: 1.2rem;
   font-weight: 700;
+  width: 100%;
+  border-color: transparent;
 }
 .new-user {
   display: flex;
